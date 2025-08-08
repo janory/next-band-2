@@ -14,9 +14,6 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   productionBrowserSourceMaps: false,
-  experimental: {
-    turbopackPersistentCaching: true,
-  }
 };
 
 export default nextConfig;
