@@ -13,7 +13,10 @@ const nextConfig: NextConfig = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
-  productionBrowserSourceMaps: false
+  productionBrowserSourceMaps: false,
+  experimental: {
+    turbopackPersistentCaching: true,
+  }
 };
 
 export default nextConfig;
