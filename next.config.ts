@@ -13,8 +13,7 @@ const nextConfig: NextConfig = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
-  productionBrowserSourceMaps: false,
-  experimental.serverSourceMaps: false
+  productionBrowserSourceMaps: false
 };
 
 export default nextConfig;
