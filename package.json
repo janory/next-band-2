@@ -11,8 +11,7 @@
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "https://vercel-packages.vercel.app/next/commits/670e32e1379858675f6c5ea9f4ba77bc9e4ac0ea/next",
-    "@next/swc-linux-x64-gnu": "https://vercel-packages.vercel.app/next/commits/670e32e1379858675f6c5ea9f4ba77bc9e4ac0ea/@next/swc-linux-x64-gnu"
+    "next": "15.4.5"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -21,6 +20,5 @@
     "@types/react-dom": "^19",
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4"
-  },
-  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+  }
 }
